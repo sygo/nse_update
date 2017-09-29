@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## last argument is the destination folder - change accordingly
+
+svn checkout --force https://github.com/nmap/nmap/trunk/scripts /usr/share/nmap/scripts/
+printf "\n === done. let's update nmap's script database \n"
+nmap --script-updatedb
+printf "\n === all done. scan all the things! \n"
