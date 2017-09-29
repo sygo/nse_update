@@ -4,12 +4,12 @@ Quick and dirty bash script to update the nse scripts with the latest version on
 # Get it running:
 pick your directory of choice (/opt perhaps?) and clone the repo there
 
-git clone https://github.com/sygo/nse_update.git
-chmod +x ./nse_update
+root@idsjokes:/opt# git clone https://github.com/sygo/nse_update.git
+root@idsjokes:/opt# chmod +x ./nse_update
 
 # Usage:
 
-$ nse_update
+root@idsjokes:/opt# nse_update
 
 Checked out revision 12321.
 
@@ -22,4 +22,4 @@ Nmap done: 0 IP addresses (0 hosts up) scanned in 0.53 seconds
 
  === all done. scan all the things!
  
-root@idsjokes$ /opt  
+root@idsjokes:/opt#  
