@@ -9,7 +9,8 @@ chmod +x ./nse_update
 
 # Usage:
 
->>> nse_update
+$ nse_update
+
 Checked out revision 12321.
 
  === done. let's update nmap's script database 
@@ -19,6 +20,6 @@ NSE: Updating rule database.
 NSE: Script Database updated successfully.
 Nmap done: 0 IP addresses (0 hosts up) scanned in 0.53 seconds
 
- === all done. scan all the things! 
-<<< root@idsjokes!!/opt  
->>> 
+ === all done. scan all the things!
+ 
+root@idsjokes$ /opt  
